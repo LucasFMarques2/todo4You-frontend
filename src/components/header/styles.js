@@ -15,7 +15,7 @@ export const Container = styled.header`
   padding: 0 80px;
 
   @media (max-width: 768px) {
-    height: 5rem;
+    height: 7rem;
   }
 `
 
@@ -79,5 +79,49 @@ export const Logout = styled.button`
       font-size: 2.5rem;
       margin-right: -2rem;
     }
+  }
+`
+export const Weather = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: ${({ theme }) => theme.COLORS.WHITE};
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    width: 5rem;
+  }
+
+  span {
+    font-size: 1.4rem;
+    font-weight: bold;
+    &:first-of-type {
+      margin-right: 0.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 3rem;
+    }
+    span {
+      font-size: 1rem;
+    }
+    div {
+      margin-top: 0.5rem;
+    }
+  }
+`
+
+export const InformationContainer = styled.div`
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    gap: 2rem;
   }
 `
