@@ -1,12 +1,54 @@
-# React + Vite
+# 📚 Api ToDo4YoU Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias Utilizadas
+- React
+- Vite
+- Javascript
+- Magic UI
+- Radix
+- Styled-components
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Instalação na Máquina Local
 
-## Expanding the ESLint configuration
+### 🛠️ Programas Necessários
+- NodeJs
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📥 Passo a Passo
+
+1. **Clone o repositório:**
+```bash
+ git clone [https://github.com/LucasFMarques2/apiTodo4You.git](https://github.com/LucasFMarques2/todo4You-frontend.git)
+```
+
+2. **Acesse a pasta do projeto:**
+```bash
+cd todo4You-frontend
+```
+
+3. **Instale as dependências**
+```bash
+npm install
+```
+
+4. **Renomeie o arquivo de ambiente:**
+```bash
+mv .exemple.env .env
+```
+
+5. **Adicone a roda do seu backend nele**
+```bash
+VITE_API_URL=http://localhost:3333/
+```
+6.**Inicie o projeto**
+```bash
+npm run dev
+```
+
+---
+
+🎉 Pronto! Seu site local está configurado e pronta para uso!
+
