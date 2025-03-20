@@ -172,10 +172,10 @@ function DraggableTask({ task, onStatusChange, onTaskUpdate, onTaskDelete }) {
           onClick={() => setIsEditing(true)}
         >
           <h4>
-            Título: <span>{task.title}</span>
+            Título: <span className="taskContent">{task.title}</span>
           </h4>
           <h4>
-            Descrição: <span>{task.description}</span>
+            Descrição: <span className="taskContent">{task.description}</span>
           </h4>
           <div className="footer">
             <div className="tag">{task.tag}</div>

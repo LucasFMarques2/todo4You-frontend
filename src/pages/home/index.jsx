@@ -38,7 +38,7 @@ export function Home() {
         {existsTask.tasks && existsTask.tasks.length > 0 ? (
           <>
             <Tasks tasks={existsTask.tasks} searchQuery={searchQuery} />
-            <span>* Arraste suas tarefas *</span>
+            <span className="InfoSpan">* Arraste suas tarefas *</span>
           </>
         ) : (
           <h2 className="taskEmpity">Crie uma nova tarefa</h2>

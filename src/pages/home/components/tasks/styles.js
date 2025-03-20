@@ -39,10 +39,10 @@ export const TaskContainer = styled.div`
   text-align: start;
   background-color: ${(props) =>
     props.$status === 'feito'
-      ? props.theme.COLORS.GREEN // Usando verde para "feito"
+      ? props.theme.COLORS.GREEN
       : props.$status === 'pendente'
-        ? props.theme.COLORS.YELLOW // Usando amarelo para "pendente"
-        : props.theme.COLORS.BLUE_100}; // Azul para "em andamento"
+        ? props.theme.COLORS.YELLOW
+        : props.theme.COLORS.BLUE_100};
   color: ${(props) =>
     props.$status === 'em andamento'
       ? props.theme.COLORS.WHITE
@@ -59,8 +59,8 @@ export const TaskContainer = styled.div`
   h4 {
     font-size: 2rem;
     margin: 0.5rem 0;
-    span {
-      font-weight: 700;
+    .taskContent {
+      font-weight: 400;
     }
 
     white-space: nowrap;

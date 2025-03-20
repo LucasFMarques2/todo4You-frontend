@@ -83,7 +83,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 768px) {
-    span {
+    .InfoSpan {
       display: none;
     }
   }
