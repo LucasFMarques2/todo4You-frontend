@@ -20,7 +20,6 @@ export const InputContainer = styled.div`
   svg {
     color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 2rem;
-    margin-top: 0.5rem;
   }
 
   textArea {
