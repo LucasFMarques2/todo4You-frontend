@@ -81,7 +81,7 @@ export const TaskContainer = styled.div`
 
   select {
     color: ${({ theme }) => theme.COLORS.WHITE};
-    width: 10rem;
+    max-width: 15rem;
     padding: 0.6rem;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.69);

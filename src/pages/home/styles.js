@@ -70,6 +70,23 @@ export const Content = styled.div`
   margin-top: 5rem;
   color: ${({ theme }) => theme.COLORS.WHITE};
   overflow: hidden;
+
+  .taskEmpity {
+    border-top: 1px solid ${({ theme }) => theme.COLORS.GRAY_100};
+    padding-top: 6rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    max-width: 150rem;
+    margin: auto;
+    margin-top: 4rem;
+    color: ${({ theme }) => theme.COLORS.GRAY_700};
+  }
+
+  @media (max-width: 768px) {
+    span {
+      display: none;
+    }
+  }
 `
 export const NewTask = styled(Link)`
   grid-area: newtask;
